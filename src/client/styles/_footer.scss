@@ -1,0 +1,13 @@
+$primary-color: orange;
+$primary-color-light: grey;
+$primary-color-visited: red;
+$font-size-medium: 16px;
+a {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: $font-size-medium;
+    
+    &:hover{
+         color: $primary-color-light;
+    }
+}
